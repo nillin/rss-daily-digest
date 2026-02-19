@@ -5,46 +5,134 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>RSS精选翻译 - 2026-02-19</title>
 <style>
-  body { max-width: 720px; margin: 2rem auto; padding: 0 1rem; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; line-height: 1.8; color: #333; }
-  h1 { font-size: 1.4rem; border-bottom: 2px solid #e0e0e0; padding-bottom: 0.5rem; }
-  .article { margin: 2rem 0; padding: 1.5rem; background: #fafafa; border-radius: 8px; border-left: 4px solid #4a90d9; }
-  .meta { font-size: 0.85rem; color: #888; margin-bottom: 1rem; }
-  .meta a { color: #4a90d9; text-decoration: none; }
-  blockquote { margin: 1rem 0; padding: 1rem 1.5rem; background: #f0f4f8; border-left: 3px solid #4a90d9; border-radius: 4px; font-style: italic; }
-  .original { margin-top: 1.5rem; padding-top: 1rem; border-top: 1px dashed #ddd; font-size: 0.9rem; color: #666; }
-  .original blockquote { background: #f9f9f9; border-left-color: #ccc; }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { max-width: 760px; margin: 0 auto; padding: 2rem 1rem; font-family: -apple-system, BlinkMacSystemFont, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", sans-serif; line-height: 1.8; color: #1d1d1f; background: #f5f5f7; }
+  header { text-align: center; padding: 2rem 1rem; background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; border-radius: 16px; margin-bottom: 2rem; }
+  header h1 { font-size: 1.5rem; margin-bottom: 0.3rem; }
+  header .stats { font-size: 0.85rem; opacity: 0.85; }
+  .article { margin: 2rem 0; padding: 2rem; background: white; border-radius: 12px; box-shadow: 0 1px 3px rgba(0,0,0,0.08); }
+  .article h2 { font-size: 1.3rem; margin-bottom: 0.5rem; color: #1d1d1f; }
+  .meta { font-size: 0.8rem; color: #86868b; margin-bottom: 1.2rem; padding-bottom: 1rem; border-bottom: 1px solid #f0f0f2; }
+  .meta a { color: #667eea; text-decoration: none; }
+  .content { font-size: 1rem; color: #424245; }
+  .content p { margin: 1rem 0; }
+  .content blockquote { margin: 1rem 0; padding: 1rem 1.5rem; background: #f0f4f8; border-left: 3px solid #667eea; border-radius: 4px; color: #333; }
+  .content a { color: #667eea; text-decoration: none; }
+  .content code { background: #f0f0f2; padding: 2px 6px; border-radius: 3px; font-size: 0.9em; }
+  .content pre { background: #1d1d1f; color: #f0f0f2; padding: 1rem; border-radius: 8px; overflow-x: auto; margin: 1rem 0; }
+  .content pre code { background: none; padding: 0; color: inherit; }
+  .content h2 { font-size: 1.15rem; margin: 1.5rem 0 0.8rem; }
+  .content ul, .content ol { margin: 0.8rem 0; padding-left: 1.5rem; }
+  .content li { margin: 0.3rem 0; }
+  .divider { height: 1px; background: #e5e5ea; margin: 2.5rem 0; }
+  footer { text-align: center; padding: 2rem; color: #86868b; font-size: 0.8rem; }
 </style>
 </head>
 <body>
-<h1>📰 RSS精选翻译 — 2026-02-19</h1>
+<header>
+  <h1>📰 RSS精选翻译</h1>
+  <div class="stats">2026-02-19 · 3篇精选</div>
+</header>
 
 <div class="article">
-<h2>引用 Dimitris Papailiopoulos</h2>
+<h2>我们一直在等待的 AI 颠覆已经到来</h2>
 <div class="meta">
-  来源：<a href="https://simonwillison.net">simonwillison.net</a> · 2026-02-17 ·
-  <a href="https://simonwillison.net/2026/Feb/17/dimitris-papailiopoulos/#atom-everything">原文链接</a>
+  来源：<a href="https://simonwillison.net">simonwillison.net</a> · 原作者：Paul Ford (NYT) · 2026-02-18 ·
+  <a href="https://simonwillison.net/2026/Feb/18/the-ai-disruption/#atom-everything">原文链接</a>
 </div>
+<div class="content">
+<p>Paul Ford 在《纽约时报》发表的新观点文章。不出所料，作为 Paul 的文章，其中充满了值得引用的片段，但有几段特别引起了我的注意。</p>
+
+<p>Paul 描述了许多其他程序员都观察到的11月时刻，并强调了 Claude Code 复活旧副项目的能力：</p>
 
 <blockquote>
-但对我来说，真正有意思的是另一件事。我现在有了一个接近魔法盒子的东西——我把一个问题扔进去，第一个答案基本上是"免费"回来的，就人力投入而言。在这之前，我探索一个新想法的方式，要么是自己笨拙地拼凑点东西，要么是让学生跑个小实验看看有没有信号，如果有，我们再深入。那个快速验证的步骤——也就是搞清楚一个问题到底有没有料——现在我可以不占用任何人的时间就完成了。现在只需要我自己、Claude Code，再加上几天的 GPU 时间。
-<br><br>
-我不知道这对我们长期做研究意味着什么。我觉得现在没人知道。但从一个问题到第一个答案之间的距离，已经变得非常小了。
+[Claude Code] 一直是一个有用的编码助手（coding assistant），但在11月它突然变得好得多，从那以后我一直在完成那些在文件夹里放了十年或更久的副项目。看到旧想法变成现实很有趣，所以我保持着稳定的进度。也许每天占用我半小时的时间，以及 Claude 一小时的时间。<br><br>
+对我和许多科技界的其他人来说，11月是一个巨大的惊喜。之前，AI 编码工具通常很有用，但断断续续且笨拙。现在，这个机器人可以连续运行整整一个小时，制作出完整的、经过设计的网站和应用程序，虽然可能有缺陷，但是可信的。我花了整整一次治疗时间来谈论这件事。
 </blockquote>
 
-<p>—— <a href="https://twitter.com/dimitrispapail/status/2023080289828831349">Dimitris Papailiopoulos</a>，谈用 Claude Code 跑研究问题</p>
+<p>作为一家受人尊敬的咨询公司（Postlight）的前 CEO，他处于评估潜在影响的有利位置：</p>
 
-<div class="original">
-<h3>原文</h3>
 <blockquote>
-But the intellectually interesting part for me is something else. I now have something close to a magic box where I throw in a question and a first answer comes back basically for free, in terms of human effort. Before this, the way I'd explore a new idea is to either clumsily put something together myself or ask a student to run something short for signal, and if it's there, we'd go deeper. That quick signal step, i.e., finding out if a question has any meat to it, is what I can now do without taking up anyone else's time. It's now between just me, Claude Code, and a few days of GPU time.
-<br><br>
-I don't know what this means for how we do research long term. I don't think anyone does yet. But the distance between a question and a first answer just got very small.
+当你看到一个大型语言模型（LLM）轻松解决一些可怕的、昂贵的问题时——比如将数据从旧平台迁移到现代平台——你会感觉到大地在移动。我曾是一家软件服务公司的首席执行官，这使我成为一名专业的软件成本估算师。几周前当我重启我混乱的个人网站时，我意识到：我会付25,000美元让别人来做这件事。当一个朋友让我转换一个庞大、棘手的数据集时，我下载了它，清理了它，并使它变得漂亮且易于探索。在过去，我会收费350,000美元。<br><br>
+最后那个价格是2021年的全额零售价——它意味着一个产品经理、一个设计师、两个工程师（一个高级工程师）以及四到六个月的设计、编码和测试。还有维护费用。定制软件贵得惊人。然而今天，当星星对齐、我的提示（prompts）奏效时，我可以在周末和晚上为了乐趣完成价值数十万美元的工作，只需要 Claude 每月200美元的订阅计划。
 </blockquote>
-<p>— <a href="https://twitter.com/dimitrispapail/status/2023080289828831349">Dimitris Papailiopoulos</a>, on running research questions though Claude Code</p>
+
+<p>他还巧妙地捕捉到了探索这项技术所涉及的固有社区张力：</p>
+
+<blockquote>
+我爱的所有人都讨厌这东西，而我讨厌的所有人都喜欢它。然而，可能是因为最初吸引我进入科技领域的那些性格缺陷，我还是烦人地兴奋着。
+</blockquote>
 </div>
 </div>
 
-<footer style="margin-top:3rem; padding-top:1rem; border-top:1px solid #eee; font-size:0.8rem; color:#aaa; text-align:center;">
+<div class="divider"></div>
+
+<div class="article">
+<h2>Martin Fowler 的一段引言</h2>
+<div class="meta">
+  来源：<a href="https://simonwillison.net">simonwillison.net</a> · 2026-02-18 ·
+  <a href="https://simonwillison.net/2026/Feb/18/martin-fowler/#atom-everything">原文链接</a>
+</div>
+<div class="content">
+<blockquote>
+LLMs（大语言模型）正在吞噬专业技能。随着 LLM 驱动技能变得比平台使用细节更重要，专业前端（front-end）和后端（back-end）开发者的需求将会减少。这是否会导致人们更加认可 Expert Generalists（专家型通才）的角色？还是说 LLMs 编写大量代码的能力意味着它们会绕过这些孤岛式分工，而不是消除它们？
+</blockquote>
+<p>— Martin Fowler，来自 Thoughtworks 软件开发未来研讨会的片段</p>
+</div>
+</div>
+
+<div class="divider"></div>
+
+<div class="article">
+<h2>在 Raspberry Pi 上使用 Hailo 进行 Frigate 物体检测</h2>
+<div class="meta">
+  来源：<a href="https://jeffgeerling.com">jeffgeerling.com</a> · 2026-02-18 ·
+  <a href="https://www.jeffgeerling.com/blog/2026/frigate-with-hailo-for-object-detection-on-a-raspberry-pi/">原文链接</a>
+</div>
+<div class="content">
+<p>我运行 Frigate（一个开源的网络视频录像机）来录制安全摄像头画面，并检测视野中的人、汽车和动物。我的当前 Frigate 服务器运行在 Raspberry Pi CM4 上，通过 USB 插入了一个 Coral TPU（张量处理单元）。</p>
+
+<p>Raspberry Pi 为 Pi 5 提供了多款 AI HAT+（硬件附加板），内置 Hailo-8 或 Hailo-8L AI 协处理器，它们对于 Pi 上的低功耗推理（如图像物体检测）非常有用。</p>
+
+<p>Frigate 提供了 Hailo 支持，但在我的新构建上让它工作让我费了一番周折，所以我在这里记录我的构建过程。</p>
+
+<p>假设你在 Pi 5 或 CM5 上有一个全新的 Pi OS 安装，并且你通过 PCIe 连接了 Hailo 模块，请执行以下操作：</p>
+
+<ul>
+<li>按照 Frigate 的指南从源代码安装 Hailo-8 驱动程序。</li>
+<li>按照 Frigate 的指南在你的 Frigate config.yml 中将 Hailo 设置为物体检测器。</li>
+<li>启动 Frigate。</li>
+</ul>
+
+<p>如果你看到这样的消息：</p>
+
+<pre><code>WARNING : CPU detectors are not recommended and should only be used for testing or for trial purposes.</code></pre>
+
+<p>那么你的检测器配置可能是错误的。回头检查你在 frigate.yml 中的模型和检测器配置。</p>
+
+<h2>PCIe force_desc_page_size 问题</h2>
+
+<p>除了配置问题外，我遇到了这个错误：</p>
+
+<pre><code>[HailoRT] [error] CHECK failed - max_desc_page_size given 16384 is bigger than hw max desc page size 4096
+RuntimeError: HailoRT inference thread has stopped, restart required.</code></pre>
+
+<p>修复方法：创建文件 <code>/etc/modprobe.d/hailo_pci.conf</code>，内容如下：</p>
+
+<pre><code>options hailo_pci force_desc_page_size=4096</code></pre>
+
+<p>然后重启 Pi，或运行：</p>
+
+<pre><code>sudo modprobe -r hailo_pci
+sudo modprobe hailo_pci</code></pre>
+
+<p>修复后，Hailo 以大约 12ms 的推理速度运行，整体 CPU 使用率非常低。好处是这在更便宜的 Hailo-8L 上也能工作，你可以在 70 美元的 AI HAT+ 中找到它，通常比现在已经过时的 Google Coral TPU 便宜得多。</p>
+
+<p>我仍然不明白为什么 Google 在一代之后就放弃了 Coral。看起来他们本可以主导"边缘 TPU"市场，但在达到 4 TOPS（每秒万亿次操作）后就放弃了。</p>
+</div>
+</div>
+
+<footer>
   由 Claw RSS Skill 生成 · 2026-02-19
 </footer>
 </body>
